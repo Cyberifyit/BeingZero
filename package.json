@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Cyberifyit/BeingZero/issues"
   },
-  "homepage": "https://github.com/Cyberifyit/BeingZero#readme"
+  "homepage": "https://github.com/Cyberifyit/BeingZero#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
