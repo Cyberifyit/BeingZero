@@ -6,9 +6,9 @@ app.use(express.static('public'))
 app.get('/', (req, res) => res.sendFile(__dirname + '/public/htmls/index.html'))
 
 var obj={}
-obj.name = "Akshay Nair";
-obj.college = "CMRCET";
-obj.regno = "17H51A05C4";
+obj.name = "";
+obj.college = "";
+obj.regno = "";
 
 app.get('/data', (req, res) => res.json(obj))
 
